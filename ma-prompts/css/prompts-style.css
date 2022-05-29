@@ -1,0 +1,78 @@
+/* 
+    CUSTOM ALERT FOR METAANIMALS IAGD
+*/
+div.alert-container {
+    min-width: 100%;
+    width: 100%;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    -ms-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border-radius: 3px;
+    margin-top: 3px;
+    display: none;
+}
+div.al-close-icon {
+    font-size: 1.5rem;
+}
+i.al-close-this {
+    cursor: pointer;
+}
+div.al-icon-status {
+    font-size: 1.5rem;
+    margin-right: 12px;
+}
+div.al-message {
+    font-size: 0.8rem;
+    letter-spacing: 0.25pt;
+}
+
+div.al-success {
+    background-color: rgb(53, 163, 53);
+    border:1px solid rgb(53, 163, 53);
+    color: rgb(248, 248, 248);
+}
+div.al-warning {
+    background-color: rgb(247, 132, 55);
+    border:1px solid rgb(247, 132, 55);
+    color: rgb(48, 48, 48);
+}
+div.al-info {
+    background-color: rgb(84, 122, 245);
+    border:1px solid rgb(84, 122, 245);
+    color: rgb(248, 248, 248);
+}
+div.al-danger {
+    background-color: rgb(245, 84, 84);
+    border:1px solid rgb(245, 84, 84);
+    color: rgb(48, 48, 48);
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 576px) {
+    div.alert-container {
+        min-width: 100%;
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    div.alert-container {
+        min-width: 100%;
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    div.alert-container {
+        min-width: auto;
+        width: auto;
+    }
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1400px) {
+}
